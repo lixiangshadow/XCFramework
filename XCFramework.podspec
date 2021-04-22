@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XCFramework"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "信春科技有限公司使用"
 
   # This description is used to generate tags and improve search results.
@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.vendored_frameworks  = "XCFramework/XCFramework.framework"
+  spec.vendored_frameworks  = "XCFramework.framework"
   spec.frameworks = "Foundation", "UIKit", "CoreLocation"
 
   # spec.library   = "iconv"

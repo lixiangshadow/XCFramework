@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.vendored_frameworks  = "XCFramework.framework"
+  spec.vendored_frameworks  = "XCFramework/XCFramework.framework"
   spec.frameworks = "Foundation", "UIKit", "CoreLocation"
 
   # spec.library   = "iconv"
